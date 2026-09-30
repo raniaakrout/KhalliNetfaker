@@ -210,9 +210,6 @@ KhalliNetfaker/
 │   ├── lib/                        # API client, store, utils
 │   └── package.json                # Dependencies
 │
-├── ARCHITECTURE.md                 # Architecture docs
-├── BENCHMARKING_PLAN.md            # Benchmarking strategy
-├── documentation.md                # Complete technical docs
 ├── README.md                       # This file
 ├── LICENSE                         # MIT License
 └── .gitignore                      # Git ignore rules
