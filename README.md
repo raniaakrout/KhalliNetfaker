@@ -7,7 +7,7 @@
 
 > An intelligent AI agent for meeting transcript analysis powered by RAG pipeline, automatic summarization, and LLM-as-Judge evaluation.
 
-## 🎯 Overview
+##  Overview
 
 **KhalliNetfaker** is a comprehensive meeting transcript analysis platform combining:
 
@@ -19,14 +19,14 @@
 
 ### Key Features
 
-✅ Drag-and-drop transcript upload (.txt/.vtt) with real-time processing  
-✅ Semantic chunking (SemanticChunker with percentile 95)& token chunking   
-✅ FAISS vector search with HuggingFace embeddings  
-✅ LangGraph agent with persistent conversation memory  
-✅ Explicit source citations in answers ([Chunk X])  
-✅ DeepEval metrics (Faithfulness, Relevancy, Precision)  
-✅ Configurable benchmarking system  
-✅ JWT authentication with PostgreSQL
+-  Drag-and-drop transcript upload (.txt/.vtt) with real-time processing  
+-  Semantic chunking (SemanticChunker with percentile 95)& token chunking   
+-  FAISS vector search with HuggingFace embeddings  
+-  LangGraph agent with persistent conversation memory  
+-  Explicit source citations in answers ([Chunk X])  
+-  DeepEval metrics (Faithfulness, Relevancy, Precision)  
+-  Configurable benchmarking system  
+-  JWT authentication with PostgreSQL
 
 ---
 
@@ -240,13 +240,13 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 Built with **LangChain**, **LangGraph**, **DeepEval**, **OpenRouter**, **FAISS**, **Next.js**, and **PostgreSQL**.
 
 ---
 
-## 📧 Contact
+##  Contact
 
 **Author**: Rania Akrout  
 **GitHub**: [@raniaakrout](https://github.com/raniaakrout)
