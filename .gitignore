@@ -1,0 +1,129 @@
+# OS / Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pytype/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.pyre/
+*.egg-info/
+.eggs/
+build/
+dist/
+site/
+*.sqlite3
+*.db
+*.db-journal
+*.log
+*.tmp
+*.temp
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+ENV.bak/
+
+# Environment files
+.env
+.env.*
+!.env.example
+*.env
+secrets*.json
+
+!.env.local.example
+# Jupyter / notebooks
+.ipynb_checkpoints/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+.pnpm-store/
+.turbo/
+coverage/
+.npm/
+.parcel-cache/
+*.tsbuildinfo
+pnpm-debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local app artifacts
+cache/
+*.faiss
+*.pkl
+*.bin
+*.npy
+*.parquet
+*.feather
+*.jsonl
+
+# Project-specific generated content
+meeting_rag/cache/
+meeting_rag/vectorstore/
+meeting_rag/data/chunks/
+meeting_rag/data/summary/
+meeting_rag/.cache/
+meeting_rag/.pytest_cache/
+transcript-upload-pipeline/.next/
+transcript-upload-pipeline/node_modules/
+transcript-upload-pipeline/.turbo/
+transcript-upload-pipeline/.vercel/
+
+# Uploads / user data
+uploads/
+**/uploads/
+**/tmp/
+
+# Test files and evaluation outputs
+meeting_rag/src/test_*.py
+meeting_rag/test_*.py
+meeting_rag/run_eval_tests.py
+**/test_db.py
+**/test_eval*.py
+**/test_api_eval.py
+
+# Benchmark and evaluation results
+meeting_rag/benchmark_results/
+meeting_rag/evaluation_results/
+**/benchmark_*.json
+**/eval_results_*.json
+**/deepeval_*.json
+
+# Generated documentation (keep source docs)
+# meeting_rag/docs/_build/
+
+# Alembic temporary files
+meeting_rag/alembic/versions/__pycache__/
+
+# GitHub / local metadata
+.gitignore.local
+
+
+.deepeval/
+.deepeval-cache/
+deepeval/
+
+documentation.md
+BENCHMARKING_PLAN.md
+ARCHITECTURE.md
+
